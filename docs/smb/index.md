@@ -3,20 +3,20 @@
 ## Instalação
 Comandos de instalação  no alpine linux e configuração:
 
-apk add samba
+`apk add samba`
 
-apk add openssh
+`apk add openssh`
 
-rc-service samba status
+`rc-service samba status`
 
-```/etc/init.d/samba [opção] start vai iniciar o samba 
-```
+`/etc/init.d/samba [opção] start vai iniciar o samba `
 
-samba-tool domain provision –use-rfc2307 –interactive 
+`samba-tool domain provision –use-rfc2307 –interactive `
 
 é usado para provisionar um novo domínio Samba Active Directory e habilitar as extensões NIS (Network Information Service). O NIS é um protocolo para compartilhar informações de usuário e grupo entre sistemas Unix.
 
 [![Instalação_Samba](https://i.im.ge/2023/12/22/xuFPpz.Instalacao-Samba.png)](https://im.ge/i/xuFPpz)
+
 
 Esse comando é para o serviço do servidor samba .
 
@@ -65,11 +65,12 @@ Arquivo /etc/samba/smb.conf configurado:
 [![Compartilhamento_pastas](https://i.im.ge/2023/12/22/xFBtJL.Compartilhamento-pastas.png)](https://im.ge/i/xFBtJL)
 
 
+
 ## Teste
 
 Pra fazer o teste se está funcionando tem que logar em outro usuarios dos grupos:
 
-[![login_usuarios](https://i.im.ge/2023/12/22/xOMIE6.login-usuarios.png)](https://im.ge/i/xOMIE6)
+![Alt text](<Screenshot from 2024-01-03 20-18-58.png>)
 
 Nesta imagem está logado um usuario do grupo Lima.
 

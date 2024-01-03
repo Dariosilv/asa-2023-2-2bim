@@ -2,11 +2,11 @@
 
 ## Instalação
 
-sudo apt update
+`sudo apt update`
 
-sudo apt install ladap-utils
+`sudo apt install ladap-utils`
 
-sudo systemctl restart slapd
+`sudo systemctl restart slapd`
 
 
 
