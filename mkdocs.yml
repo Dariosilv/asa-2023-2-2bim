@@ -1,11 +1,7 @@
 site_name: "ASA: Serviços para 2º bimestre"
-site_author: Nome e Sobrenome
+site_author: Dario da silva 
 
 theme:
   name: readthedocs
 
-theme:
-  name: material
-  language: pt
-
-  
+![Logo do GitHub](https://github.com/Dariosilv/asa-2023-2-2bim/blob/main/public/images/logo.png?raw=true&hash=<hash-da-imagem>)
