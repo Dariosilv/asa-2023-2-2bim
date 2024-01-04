@@ -2,14 +2,6 @@
 
 ## Instalação
 
-`sudo apt update`
-
-`sudo apt install ladap-utils`
-
-`sudo systemctl restart slapd`
-
-
-
 ## Configuração
 
 Incluir o(s) nome(s) e o conteúdo do(s) arquivo(s) de configuração.
@@ -49,11 +41,6 @@ Arquivos de configuração
 Os arquivos de configuração usados para criar as OUs e mover os grupos são os seguintes:
 
 
-`/etc/openldap/schema/core.schema`
-
-`/etc/openldap/schema/cosine.schema`
-
-`/etc/openldap/schema/inetorgperson.schema`
 Esses arquivos são necessários para que o servidor LDAP possa entender os objetos e atributos usados nos comandos ldapadd e ldapmodify.
 
 

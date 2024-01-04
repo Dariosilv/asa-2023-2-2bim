@@ -16,6 +16,8 @@ Incluir o(s) nome(s) e o conteúdo do(s) arquivo(s) de configuração.
 
 Após a instalação, o arquivo de configuração do Squid está localizado no diretório /etc/squid/squid.conf. Para editar este arquivo, execute o seguinte comando:
 
+As ACLs (Access Control List) são regras para navegação via proxy. Neste documento vamos tratar apenas das ACLs existentes no SQUID, deixando de lado toda configuração que não é de ACL. Vale ressaltar que as ACLs são lidas na ordem em que aparecem e podem ser combinadas, tome muito cuidado ao criar ou alterar uma nova regra.
+
 ```nano /etc/squid/squid.conf ```
 
 ```Arquivo /etc/squid/squid.conf Já configurado :

@@ -24,9 +24,6 @@ Após instalar o pacote, você precisará configurar o servidor DHCP. Você pode
 
 Aqui está um exemplo de configuração básica para o servidor DHCP:
 
-`interface=eth0`
-
-`dhcp-range=192.168.1.100,192.168.1.254,255.255.255.0,12h`
 
 Aqui está o arquivo de configuração `/etc/dnmasq.d/asa.conf .`
 
@@ -69,3 +66,5 @@ E está funcionado os IP configurados :
 Agora está aqui o teste no clone do windowns.
 
 [![Screenshot from 2024-01-03 20-57-46](https://i.im.ge/2024/01/04/3l2dLz.Screenshot-from-2024-01-03-20-57-46.png)](https://im.ge/i/3l2dLz)
+
+Falta colocar o logs e subir outro IP .

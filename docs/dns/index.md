@@ -10,7 +10,7 @@ e tambem e modificado o arquivo `/etc/resolv.conf.`
 
 Os container usados na instalaçao do DNS :
 
-[![Container](../../Imagens/DNS/Container.png)]
+[![Container](https://i.im.ge/2024/01/04/3lSSw1.Container.png)](https://im.ge/i/3lSSw1)
 
 falta colocar os  prints do arquivo modificado para o DNS.
 
@@ -26,7 +26,7 @@ Criação de 3 registros de recurso do tipo A => Hosts:
 
 `nome dos 3 registros: macau, olinda, goiania :`
 
-[![Container](../../Imagens/DNS/Dns.png)]
+[![Dns](https://i.im.ge/2024/01/04/3lSsXm.Dns.png)](https://im.ge/i/3lSsXm)
 
 
 - 2 do tipo CNAME (`www` e `docs`);
@@ -35,13 +35,10 @@ Criação de 2 registros do Tipo CNAME :
 
 `Nome dos 2 registros : docs,www .`
 
-[![Container](../../Imagens/DNS/Dns.png)]
+[![Dns](https://i.im.ge/2024/01/04/3lSsXm.Dns.png)](https://im.ge/i/3lSsXm)
 
 ## Teste
 
-depois da configuração 
+Falta colocar o print do ping.
 
-E tanbém o print da pagina Web onde a url seria goiania.pernambuco.lab no navegador Firefox é registro CNAME:
-
-Não coloquei o print pois a configuração do arquivo /etc/resolv.conf não lembro 
 

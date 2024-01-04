@@ -112,13 +112,6 @@
         
             <li><a class="toctree-l4" href="#configuracao">Configuração</a></li>
         
-        </ul>
-    
-
-    <li class="toctree-l3"><a href="#compartilhamento-de-pastas">Compartilhamento de pastas:</a></li>
-    
-        <ul>
-        
             <li><a class="toctree-l4" href="#teste">Teste</a></li>
         
         </ul>
@@ -168,11 +161,12 @@
                 <h1 id="smb">SMB</h1>
 <h2 id="instalacao">Instalação</h2>
 <p>Comandos de instalação  no alpine linux e configuração:</p>
-<p>apk add samba</p>
-<p>apk add openssh</p>
-<p>rc-service samba status</p>
+<p><code>apk add samba</code> :</p>
+<p>Este comando instala o pacote de software Samba em um sistema Alpine Linux.</p>
+<p><code>rc-service samba status</code> :</p>
+<p>Este comando verifica o status atual do serviço Samba. Ele consulta o gerenciador de serviços para determinar se o Samba está em execução ou parado. Isso pode ajudar a solucionar problemas verificando se o serviço está ativo.</p>
 <p><code>/etc/init.d/samba [opção] start vai iniciar o samba</code></p>
-<p>samba-tool domain provision –use-rfc2307 –interactive </p>
+<p><code>samba-tool domain provision –use-rfc2307 –interactive</code></p>
 <p>é usado para provisionar um novo domínio Samba Active Directory e habilitar as extensões NIS (Network Information Service). O NIS é um protocolo para compartilhar informações de usuário e grupo entre sistemas Unix.</p>
 <p><a href="https://im.ge/i/xuFPpz"><img alt="Instalação_Samba" src="https://i.im.ge/2023/12/22/xuFPpz.Instalacao-Samba.png" /></a></p>
 <p>Esse comando é para o serviço do servidor samba .</p>
@@ -193,17 +187,18 @@
 <ol>
 <li>Compartilhar duas pastas com dois de seus sobrenome, compartilhado para o grupo com o sobrenome correspondente.</li>
 </ol>
-<h1 id="compartilhamento-de-pastas">Compartilhamento de pastas:</h1>
+<p>Compartilhamento de pastas:</p>
 <p>comandos:</p>
-<p>```cd /srv/samba``````</p>
+<p><code>cd /srv/samba</code></p>
 <p><code>nano  /etc/samba/smb.conf</code></p>
-<p><code>modificar o arquivo /etc/hosts e /etc/hostname</code></p>
-<p>configurar o arquivo /etc/samba/smb.conf</p>
+<p><code>modificar o arquivo /etc/hosts</code> e</p>
+<p><code>/etc/hostname</code></p>
+<p><code>configurar o arquivo /etc/samba/smb.conf</code></p>
 <p>Arquivo /etc/samba/smb.conf configurado:</p>
 <p><a href="https://im.ge/i/xFBtJL"><img alt="Compartilhamento_pastas" src="https://i.im.ge/2023/12/22/xFBtJL.Compartilhamento-pastas.png" /></a></p>
 <h2 id="teste">Teste</h2>
 <p>Pra fazer o teste se está funcionando tem que logar em outro usuarios dos grupos:</p>
-<p><a href="https://im.ge/i/xOMIE6"><img alt="login_usuarios" src="https://i.im.ge/2023/12/22/xOMIE6.login-usuarios.png" /></a></p>
+<p><img alt="Alt text" src="Screenshot from 2024-01-03 20-18-58.png" /></p>
 <p>Nesta imagem está logado um usuario do grupo Lima.</p>
               
             </div>

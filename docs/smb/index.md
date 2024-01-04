@@ -3,13 +3,16 @@
 ## Instalação
 Comandos de instalação  no alpine linux e configuração:
 
-`apk add samba`
+`apk add samba` :
 
-`apk add openssh`
+Este comando instala o pacote de software Samba em um sistema Alpine Linux.
 
-`rc-service samba status`
+`rc-service samba status` :
+
+Este comando verifica o status atual do serviço Samba. Ele consulta o gerenciador de serviços para determinar se o Samba está em execução ou parado. Isso pode ajudar a solucionar problemas verificando se o serviço está ativo.
 
 `/etc/init.d/samba [opção] start vai iniciar o samba `
+
 
 `samba-tool domain provision –use-rfc2307 –interactive `
 
@@ -54,7 +57,9 @@ comandos:
 ```nano  /etc/samba/smb.conf ```
 
 
-```modificar o arquivo /etc/hosts e /etc/hostname```
+`modificar o arquivo /etc/hosts` e
+ 
+`/etc/hostname`
 
 
 ```configurar o arquivo /etc/samba/smb.conf```

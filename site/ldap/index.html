@@ -160,9 +160,6 @@
               
                 <h1 id="ldap">LDAP</h1>
 <h2 id="instalacao">Instalação</h2>
-<p>sudo apt update</p>
-<p>sudo apt install ladap-utils</p>
-<p>sudo systemctl restart slapd</p>
 <h2 id="configuracao">Configuração</h2>
 <p>Incluir o(s) nome(s) e o conteúdo do(s) arquivo(s) de configuração.</p>
 <ul>
@@ -184,10 +181,7 @@
 - Mover os grupo <code>sobrenome2</code> e seus membros para a OU <code>rh</code>.</p>
 <p>Arquivos de configuração</p>
 <p>Os arquivos de configuração usados para criar as OUs e mover os grupos são os seguintes:</p>
-<p>/etc/openldap/schema/core.schema
-/etc/openldap/schema/cosine.schema
-/etc/openldap/schema/inetorgperson.schema
-Esses arquivos são necessários para que o servidor LDAP possa entender os objetos e atributos usados nos comandos ldapadd e ldapmodify.</p>
+<p>Esses arquivos são necessários para que o servidor LDAP possa entender os objetos e atributos usados nos comandos ldapadd e ldapmodify.</p>
 <h2 id="teste">Teste</h2>
 <p>Com toda essa configuração o LDAP já esta funcionando normalmente.</p>
               
