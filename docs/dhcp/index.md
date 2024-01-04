@@ -28,13 +28,18 @@ Aqui está um exemplo de configuração básica para o servidor DHCP:
 
 `dhcp-range=192.168.1.100,192.168.1.254,255.255.255.0,12h`
 
+Aqui está o arquivo de configuração `/etc/dnmasq.d/asa.conf .`
+
+[![Screenshot from 2024-01-03 20-54-41](https://i.im.ge/2024/01/04/3l2FFa.Screenshot-from-2024-01-03-20-54-41.png)](https://im.ge/i/3l2FFa)
+
+
 Este exemplo configura o servidor DHCP para atribuir endereços IP no intervalo de 192.168.1.100 a 192.168.1.254 com uma máscara de rede de 255.255.255.0 e um tempo de arrendamento de 12 horas.
 
 Você pode configurar o servidor DHCP com uma variedade de opções. Para obter mais informações, consulte a documentação do dnsmasq.
 
 Para reiniciar o servidor DHCP, você pode usar o seguinte comando:
 
-sudo systemctl restart dnsmasq
+rc-service dnsmasq restart 
 
 Após reiniciar o servidor, ele começará a atribuir endereços IP aos clientes DHCP.
 
@@ -48,17 +53,19 @@ dhcp-range=início-do-intervalo,fim-do-intervalo,máscara-de-rede,tempo-de-arren
 
 - Reservar 2 endereços (IP fixo) fora do intervalo do item anterior. (5 pontos)
 
-o exemplo de configuração no windownsxp:
-
-[![Servidor dhcp](https://i.im.ge/2023/12/30/x85Q5r.Servidor-dhcp.png)](https://im.ge/i/x85Q5r)
-
-
 
 Configurando o servidor DHCP para um intervalo de endereços MAC específicos
 
 
 ## Teste
 
-Aqui está um Teste do servidor dhcp no windowns xp:
+Aqui está o Teste no windownsXp :
 
-[![Servidor dhcp](https://i.im.ge/2023/12/30/x85Q5r.Servidor-dhcp.png)](https://im.ge/i/x85Q5r)
+E está funcionado os IP configurados :
+
+[![Conf](https://i.im.ge/2024/01/04/3l149m.Screenshot-from-2024-01-03-20-45-56.png)](https://im.ge/i/3l149m)
+
+
+Agora está aqui o teste no clone do windowns.
+
+[![Screenshot from 2024-01-03 20-57-46](https://i.im.ge/2024/01/04/3l2dLz.Screenshot-from-2024-01-03-20-57-46.png)](https://im.ge/i/3l2dLz)
