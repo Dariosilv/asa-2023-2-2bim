@@ -161,9 +161,10 @@
                 <h1 id="smb">SMB</h1>
 <h2 id="instalacao">Instalação</h2>
 <p>Comandos de instalação  no alpine linux e configuração:</p>
-<p><code>apk add samba</code></p>
-<p><code>apk add openssh</code></p>
-<p><code>rc-service samba status</code></p>
+<p><code>apk add samba</code> :</p>
+<p>Este comando instala o pacote de software Samba em um sistema Alpine Linux.</p>
+<p><code>rc-service samba status</code> :</p>
+<p>Este comando verifica o status atual do serviço Samba. Ele consulta o gerenciador de serviços para determinar se o Samba está em execução ou parado. Isso pode ajudar a solucionar problemas verificando se o serviço está ativo.</p>
 <p><code>/etc/init.d/samba [opção] start vai iniciar o samba</code></p>
 <p><code>samba-tool domain provision –use-rfc2307 –interactive</code></p>
 <p>é usado para provisionar um novo domínio Samba Active Directory e habilitar as extensões NIS (Network Information Service). O NIS é um protocolo para compartilhar informações de usuário e grupo entre sistemas Unix.</p>
@@ -190,7 +191,8 @@
 <p>comandos:</p>
 <p><code>cd /srv/samba</code></p>
 <p><code>nano  /etc/samba/smb.conf</code></p>
-<p><code>modificar o arquivo /etc/hosts e /etc/hostname</code></p>
+<p><code>modificar o arquivo /etc/hosts</code> e</p>
+<p><code>/etc/hostname</code></p>
 <p><code>configurar o arquivo /etc/samba/smb.conf</code></p>
 <p>Arquivo /etc/samba/smb.conf configurado:</p>
 <p><a href="https://im.ge/i/xFBtJL"><img alt="Compartilhamento_pastas" src="https://i.im.ge/2023/12/22/xFBtJL.Compartilhamento-pastas.png" /></a></p>
