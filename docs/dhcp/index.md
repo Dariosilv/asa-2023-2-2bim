@@ -67,4 +67,3 @@ Agora está aqui o teste no clone do windowns.
 
 [![Screenshot from 2024-01-03 20-57-46](https://i.im.ge/2024/01/04/3l2dLz.Screenshot-from-2024-01-03-20-57-46.png)](https://im.ge/i/3l2dLz)
 
-Falta colocar o logs e subir outro IP .

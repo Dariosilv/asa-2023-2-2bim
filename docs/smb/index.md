@@ -74,8 +74,7 @@ Arquivo /etc/samba/smb.conf configurado:
 ## Teste
 
 Pra fazer o teste se está funcionando tem que logar em outro usuarios dos grupos:
-
-![Alt text](<Screenshot from 2024-01-03 20-18-58.png>)
+![Alt text](login_usuarios.png)
 
 Nesta imagem está logado um usuario do grupo Lima.
 
